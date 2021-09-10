@@ -28,8 +28,8 @@ const getAstraRestClient = async () => {
   if (astraRestClient === null) {
     astraRestClient = await createClient(
       {
-        astraDatabaseId: process.env.ASTRA_DB_ID,
-        astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+        astraDatabaseId: "96938b1c-a23a-4e55-b59b-d3094dc2282b",
+        astraDatabaseRegion: "us-east-2",
         applicationToken: "AstraCS:LwrsuDRtLJxNNEteuElBWETe:401764a853e8cb882fc47fb13116119ebd95c6a21a90250ffaecc103159a1642",
         debug: true
       },
